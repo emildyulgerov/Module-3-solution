@@ -1,0 +1,93 @@
+
+
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: lightyellow;
+	font-family: 'Oxygen', sans-serif;
+}
+.text-center {
+	color: black;
+}
+
+/** Navbar **/
+
+
+
+
+#header-nav {
+	background-color: darkgray;
+	border-radius: 0;
+	border: 0;
+	position: relative;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+	position: absolute;
+	left: 0;
+	padding-bottom: 10px;
+
+}
+
+.navbar-brand h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	line-height: .75;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  margin-bottom: 0;
+  background-color: palegreen;
+  border-bottom: 1;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1;
+}
+
+#main-content {
+	color: black;
+	background-color: darkgray;
+}
+section h2 {
+	text-align: center;
+}
+.row {
+	margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+	.row {
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+}
